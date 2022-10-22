@@ -7,11 +7,16 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "codepush:android:staging": "appcenter codepush release-react -a andhika.yuana-ruangguru.com/playground -d Staging"
   },
   "dependencies": {
+    "appcenter": "4.4.5",
+    "appcenter-analytics": "4.4.5",
+    "appcenter-crashes": "4.4.5",
     "react": "18.1.0",
-    "react-native": "0.70.3"
+    "react-native": "0.70.3",
+    "react-native-code-push": "^7.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
